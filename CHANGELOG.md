@@ -1,59 +1,5 @@
 # Change Log
 
-## [v2.9.0](https://github.com/olefredrik/FoundationPress/tree/v2.9.0) (2016-12-15)
-[Full Changelog](https://github.com/olefredrik/FoundationPress/compare/v2.8.0...v2.9.0)
-
-**Closed issues:**
-
-- how to @import absolute path write？ [\#924](https://github.com/olefredrik/FoundationPress/issues/924)
-- Version number on files not updated to 2.8.0 [\#918](https://github.com/olefredrik/FoundationPress/issues/918)
-- Is FoundationPress Updated? [\#916](https://github.com/olefredrik/FoundationPress/issues/916)
-- jQuery error from 'source' folder [\#910](https://github.com/olefredrik/FoundationPress/issues/910)
-- Sudden error when running "npm run watch" [\#890](https://github.com/olefredrik/FoundationPress/issues/890)
-- node.js  [\#882](https://github.com/olefredrik/FoundationPress/issues/882)
-- Error: Cannot find module 'sparkles' [\#867](https://github.com/olefredrik/FoundationPress/issues/867)
-- Error during npm run build [\#866](https://github.com/olefredrik/FoundationPress/issues/866)
-- data-equalize-on not working [\#813](https://github.com/olefredrik/FoundationPress/issues/813)
-- using xlarge and xxlarge causes warnings [\#801](https://github.com/olefredrik/FoundationPress/issues/801)
-- Modify topbar to accordion menu [\#715](https://github.com/olefredrik/FoundationPress/issues/715)
-
-**Merged pull requests:**
-
-- Foundation v6.3.0 [\#926](https://github.com/olefredrik/FoundationPress/pull/926) ([olefredrik](https://github.com/olefredrik))
-- Added XLarge [\#917](https://github.com/olefredrik/FoundationPress/pull/917) ([alexbohariuc](https://github.com/alexbohariuc))
-- Order placeholders [\#913](https://github.com/olefredrik/FoundationPress/pull/913) ([olefredrik](https://github.com/olefredrik))
-- Update navigation.php [\#911](https://github.com/olefredrik/FoundationPress/pull/911) ([mrsWeasel](https://github.com/mrsWeasel))
-
-## [v2.8.0](https://github.com/olefredrik/FoundationPress/tree/v2.8.0) (2016-10-21)
-[Full Changelog](https://github.com/olefredrik/FoundationPress/compare/v2.7.1...v2.8.0)
-
-**Closed issues:**
-
-- Theme has many PHPCS warnings [\#907](https://github.com/olefredrik/FoundationPress/issues/907)
-- Getting error in npm start [\#906](https://github.com/olefredrik/FoundationPress/issues/906)
-- Is interchange broken? [\#902](https://github.com/olefredrik/FoundationPress/issues/902)
-- npm run watch fails [\#899](https://github.com/olefredrik/FoundationPress/issues/899)
-- "Unexpected character '`'" running npm run production or package [\#898](https://github.com/olefredrik/FoundationPress/issues/898)
-- git clone error [\#892](https://github.com/olefredrik/FoundationPress/issues/892)
-- Cannot find open [\#889](https://github.com/olefredrik/FoundationPress/issues/889)
-- Drop Down Menu Vertical Class can't be removed [\#888](https://github.com/olefredrik/FoundationPress/issues/888)
-- Installing FoundationPress Issues [\#878](https://github.com/olefredrik/FoundationPress/issues/878)
-- Scss import failing [\#804](https://github.com/olefredrik/FoundationPress/issues/804)
-- How to apply styles for different screen sizes [\#791](https://github.com/olefredrik/FoundationPress/issues/791)
-
-**Merged pull requests:**
-
-- Featured image optimization [\#909](https://github.com/olefredrik/FoundationPress/pull/909) ([EricRihlmann](https://github.com/EricRihlmann))
-- Reformat code to fit WP PHPCS standards [\#908](https://github.com/olefredrik/FoundationPress/pull/908) ([Leland](https://github.com/Leland))
-- Added Interchange on featured Images [\#905](https://github.com/olefredrik/FoundationPress/pull/905) ([alexbohariuc](https://github.com/alexbohariuc))
-- Fix 'Posted on ...' for all languages [\#901](https://github.com/olefredrik/FoundationPress/pull/901) ([Martin4ndersen](https://github.com/Martin4ndersen))
-- Add Danish language and fix translation issue with "Posted on ..." [\#900](https://github.com/olefredrik/FoundationPress/pull/900) ([Martin4ndersen](https://github.com/Martin4ndersen))
-- Typo in dropdown font size setting [\#897](https://github.com/olefredrik/FoundationPress/pull/897) ([conor-hc](https://github.com/conor-hc))
-- Fix Travis CI Build Errors [\#896](https://github.com/olefredrik/FoundationPress/pull/896) ([EricRihlmann](https://github.com/EricRihlmann))
-- Normalize SCSS [\#894](https://github.com/olefredrik/FoundationPress/pull/894) ([EricRihlmann](https://github.com/EricRihlmann))
--  Turkish language files added [\#891](https://github.com/olefredrik/FoundationPress/pull/891) ([nurdankiratlioglu](https://github.com/nurdankiratlioglu))
-- Updated README.md with info on packaging the theme to a zip file [\#864](https://github.com/olefredrik/FoundationPress/pull/864) ([colin-marshall](https://github.com/colin-marshall))
-
 ## [v2.7.1](https://github.com/olefredrik/FoundationPress/tree/v2.7.1) (2016-09-07)
 [Full Changelog](https://github.com/olefredrik/FoundationPress/compare/v2.7.0...v2.7.1)
 
