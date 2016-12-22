@@ -15,10 +15,18 @@
 
 get_header(); ?>
 
-<div id="page" role="main">
+<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id(get_option('page_for_posts')), 'full' );?>
+
+<div class="half-hero" style="background: #8a8a8a url('<?php echo $backgroundImg[0]; ?>')no-repeat; background-size: cover; background-position: 50% 50%;">
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<div class="centered-content"><h1><?php wp_title(''); ?></h1></div>
+		</div>
+	</div>
+</div>
+<div id="mainContent" class="blog-index" role="main">
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>
-
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
@@ -26,20 +34,25 @@ get_header(); ?>
 
 		<?php else : ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; // End have_posts() check. ?>
+	<?php endif; // End have_posts() check. ?>
 
 		<?php /* Display navigation to next/previous pages when applicable */ ?>
-		<?php
-		if ( function_exists( 'foundationpress_pagination' ) ) :
-			foundationpress_pagination();
-		elseif ( is_paged() ) :
-		?>
+		<?php /* if ( function_exists( 'foundationpress_pagination' ) ) { foundationpress_pagination(); } else if ( is_paged() ) { ?>
 			<nav id="post-nav">
-				<div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'foundationpress' ) ); ?></div>
-				<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
+				<div class="post-previous"></div>
+				<div class="post-next"></div>
 			</nav>
-		<?php endif; ?>
+		<?php } */ ?>
+		<div class="row page-change">
+		<div class="small-12 columns">
+			<div class="float-left">
+				<?php previous_posts_link( __( '&lArr; Newer posts', 'foundationpress' ) ); ?>
+			</div>
+			<div class="float-right">
+				<?php next_posts_link( __( 'Older posts &rArr;', 'foundationpress' ) ); ?>
+			</div>
+		</div>
+	</div>
 
 	</article>
 	<?php get_sidebar(); ?>

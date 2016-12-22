@@ -48,4 +48,21 @@ require_once( 'library/sticky-posts.php' );
 require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
-// require_once( 'library/protocol-relative-theme-assets.php' );
+// require_once( 'library/protocol-relative-theme-assets.php' ); */
+
+
+/** ACF FUNCTIONS */
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
+/** Add footer menu */
+register_nav_menus ( array( 
+	'footer-left' => __('Footer Left', 'CiderSociety')
+	));
+register_nav_menus ( array( 
+	'footer-right' => __('Footer Right', 'CiderSociety')
+	));

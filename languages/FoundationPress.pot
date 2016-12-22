@@ -193,7 +193,7 @@ msgstr ""
 
 #: library/entry-meta.php:4
 #, php-format
-msgid "Posted on %1$s at %2$s."
+msgid "Posted on %s at %s."
 msgstr ""
 
 #: library/entry-meta.php:5
